@@ -1,5 +1,5 @@
 # social-media-counter
-Social media followers counter for Instagram, Twitter, Behance, Github
+Social media followers counter for Instagram, Twitter, Behance, Github, Pinterest
 Steps:
 1. Create virtualenv "virtualenv -p python3 ."
 2. Run: pip install -r requirements.txt
