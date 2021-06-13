@@ -8,7 +8,8 @@ headers = {
     'Access-Control-Max-Age': '3600',
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
     }
-handle = input('Enter behance handle: ')
+
+handle = input('Enter behance handle default (designerpreis): ') or 'designerpreis'
 
 url = "https://www.behance.net/"+handle+"?tracking_source=search_projects_recommended"
 print(url)

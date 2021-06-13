@@ -1,5 +1,6 @@
 import requests
-handle = input('Enter your github: ')
+import json
+handle = input('Enter your github default (paulmillr): ') or 'paulmillr'
 link = 'https://api.github.com/users/'+handle
-f = requests.get(link)
-print(f.text)
+f = json.loads(requests.get(link).text)
+print(f['followers'])
